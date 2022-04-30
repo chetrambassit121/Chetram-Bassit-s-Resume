@@ -59,6 +59,26 @@ a {
 	width: 100px;
 }
 
+.logo {
+	height: 40px;
+	width: 100px;
+}
+
+.logo1 {
+	height: 75px;
+	width: 50px;
+}
+
+.logo2 {
+	height: 60px;
+	width: 60px;
+}
+
+.logo3 {
+	height: 50px;
+	width: 50px;
+}
+
 .more {
 	display: none;
 }
@@ -113,4 +133,8 @@ h1, h2, h3 {
 
 .list-padding {
 	padding-left: 30px;
+}
+
+.list-padding li {
+	padding: 0 0 5px 0;
 }
