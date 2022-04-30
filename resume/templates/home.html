@@ -1,6 +1,173 @@
 {% extends 'index.html' %}
 {% block content %}
+{% load static %}
 
-<h1>Chetram Bassit's Resume</h1>
+<div class="row text-center top-header fancy-border fade-in-image">
+	<h1>Chetram Bassit <img class="image" src="{% static 'images/my_resume_pic.JPG' %}"></h1>
+	<h6>USA, The State of New York, Queens, South Richmond Hill, 11419-2122 <br><br> Email: chetrambassit121@gmail.com &nbsp;&nbsp;&nbsp; Cellphone: +1(646)-853-3016 <br> </h6>
+    <h6> Github: <a target="_blank" href="https://github.com/chetrambassit121">chetrambassit121</a> &nbsp;&nbsp;&nbsp; LinkedIn: ..........</h6>
+</div>
+<p class="text-center">This resume was custom made by Chetram Bassit</p>
+<div class="flexbox-container fade-in-image">
+    <div class="flexbox-item flexbox-item-1">
+        <div class="padding">
+            <div class="text-center">
+                <h3>Programming Introduction</h3><hr>
+                <p>Please unmute to listen!</p>
+                <video width="320" height="240" controls autoplay muted>
+                    <source src="{% static 'videos/IMG_56274337.MOV' %}" type='video/mp4'>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p>From "Hello World" in development, to <a target="_blank" href="https://hello-world-chet.herokuapp.com/">"Hello World"</a> in production, to MY OWN custom made websites like <a target="_blank" href="https://power-building.herokuapp.com">power-building</a> AND buying my own domain name <a target="_blank" href="https://www.nyforchoice.com">nyforchoice.com</a>! From the backend to the front end, and vise versa, I have developed the skills and knowledge it takes to be a Full Stack Web Developer using the web framework known as Django along with HTML, CSS, and Javascript. My motto is "Where there's a code, there's a way."</p>
+            <h4 class="text-center">Personal Introduction</h4><hr>    
+            <p>"How can I possibly do this? How can I teach myself to create a website?" .... <br></p>
+            <span class="dots"></span>
+            <span class="more"> 
+                <p>
+                These were the thoughts running through my head in May 2020 during the Covid-19 pandemic and lockdowns. After losing my current job, I was devistated, lost, and even confused as to what I should do now for work. "Hey you always wanted to check out coding, try this Python course" said my brother. Ever since then I've been addicted to learning and developing the nessessasry skills it takes to become a Full Stack Web Developer, or as I say "A one man army for developing websites and applications". I consider myself to be very patient, persistant, and hardworking, key traits for success as a Programmer. My other intrests and passions are fitness, nutrition, history, argiculture, religions, cultures, anime, sports, and more! Family, friends, and fellow employees consider me to be very kind, respectful, and humble. A personal philosophy of mines is coding can and has changed the world for the better!</p>
+            </span>
+            <div class="read text-center">read more</div>
+        </div>
+    </div>
+    <div class="flexbox-item flexbox-item-2">
+        <div class="padding">
+            <h3>Programming Skills in ...</h3><hr>
+            <div class="list-padding">
+                <h5>Backend</h5>
+                <ul>
+                    <li>Python</li>
+                    <li>Django Web Framework</li>
+                    <li>Flask Web Framework</li>
+                </ul>
+                <h5>Frontend</h5>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                <h5>Other Lanuages</h5>
+                <ul>
+                    <li>Javascript</li>
+                </ul>
+                <h5>Text Editors</h5>
+                <ul>
+                    <li>Sublime Text</li>
+                    <li>Visual Studio Code</li>
+                    <li>Pycharm</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="flexbox-item flexbox-item-3">
+        <h1>Experience and Projects</h1>
+    </div>
+</div>
+
+
+
+
+
 
 {% endblock %}
+<div class="flexbox-container">
+    <div class="flexbox-item">
+        <h6 class="justify-content-center">Please unmute to listen!</h6>
+        <video width="320" height="240" controls autoplay muted>
+            <source src="{% static 'videos/IMG_56274337.MOV' %}" type='video/mp4'>
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="flexbox-item">
+        
+    </div>
+     <div class="flexbox-item">
+        
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm">
+      Column
+    </div>
+    <div class="col-sm">
+      Column
+    </div>
+    <div class="col-sm">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm">
+      Column
+    </div>
+    <div class="col-md">
+      Column
+    </div>
+    <div class="col-lg">
+      Column
+    </div>
+    <div class="col-xl">
+      Column
+    </div>
+    <div class="col-xxl">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#remove-fade").removeClass(".fade-in-image");
+    });
+</script>
+<div class="row text-center">
+    <div class="col-sm">
+        <!-- http://www.learningaboutelectronics.com/Articles/How-to-display-a-video-in-Django.php -->
+        <h6>Please unmute to listen!</h6>
+        <video width="320" height="240" controls autoplay muted>
+            <source src="{% static 'videos/IMG_56274337.MOV' %}" type='video/mp4'>
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="container-sm">100% wide until small breakpoint</div>
+<div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div>
+
+<br><br><br><br><br>
+
+<div class="row">
+    <div class="col-sm">
+      Column
+    </div>
+    <div class="col-md">
+      Column
+    </div>
+    <div class="col-lg">
+      Column
+    </div>
+    <div class="col-xl">
+      Column
+    </div>
+    <div class="col-xxl">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+</div>
