@@ -114,7 +114,9 @@ a {
   background-color: white;
 }
 
-h1, h2, h3, h4 {
+.flexbox-item-4 {}
+
+h1, h2, h3 {
 	text-align: center;
 }
 
@@ -133,6 +135,10 @@ h1, h2, h3, h4 {
 
 .list-padding {
 	padding-left: 30px;
+}
+
+.list-padding1 {
+	padding-left: 10px;
 }
 
 .list-padding li {
