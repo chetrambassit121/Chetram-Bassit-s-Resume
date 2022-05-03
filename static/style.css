@@ -88,12 +88,13 @@ a {
 
 .read:hover {
 	cursor: pointer;
-	background-color: #B88846;
+	background-color: #32cd32;
 	border: 2px solid black;
+	color: black;
 }
 
 .read {
-	border: 2px solid #B88846;
+	border: 2px solid #3cb371;
 	margin-bottom: 5px;
 }
 
