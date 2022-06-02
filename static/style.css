@@ -25,11 +25,11 @@ a {
 
 /*https://blog.hubspot.com/website/css-fade-in*/
 .fade-in-image {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -109,48 +109,54 @@ a {
   bottom: 10%;
 }
 
+.flexbox-container1 {
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: center;
+  bottom: 10%;
+  width: 1000px;
+}
+
 .flexbox-item {
   margin: 10px;
   width: 400px;
-
-  /*border: 3px solid #F8F8FF;*/
-  /*border: 3px solid #66FF00; */
-  /*border: 3px solid #66FF00; */
-  /*border: 3px solid #20B2AA; */
-  /*margin-right: 5px;*/
   background-color: #004953;
 }
 
-.flexbox-item-4 {}
+.flexbox-item1 {
+  width: 320px;
+  background-color: #004953;
+}
 
-h1, h2, h3, .flexbox-item-0{
+h1, h2, h3, h4, h5, .small, .flexbox-item-0{
 	text-align: center;
-}
-
-.flexbox-item-1 {
-  /*width: 450px;*/
-  
-}
-
-.flexbox-item-2 {
-  /*width: 350px;*/
 }
 
 .flexbox-item-0 {
 	padding: 10px 10px 0px 10px;
 }
 
+/* .flexbox-item-2 {
+	text-align: center;
+} */
+
+.flexbox-item-6 {
+  width: 450px;
+}
 
 .padding {
 	padding: 10px 10px 10px 10px;
 }
 
-.list-padding {
-	padding-left: 30px;
-}
-
 .list-padding1 {
 	padding-left: 10px;
+}
+
+.list-padding1 li {
+  padding-bottom: 10px;
 }
 
 .list-padding li {
