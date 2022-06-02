@@ -131,6 +131,27 @@ a {
   background-color: #004953;
 }
 
+.flexbox-item2 {
+  width: 400px;
+  background-color: #004953;
+  text-align: center;
+}
+
+.tableofcontents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.jumpinglink a {
+  color: gold;
+}
+
+.jumpinglink a:hover {
+  color: darkgoldenrod;
+}
+
 h1, h2, h3, h4, h5, .small, .flexbox-item-0{
 	text-align: center;
 }
