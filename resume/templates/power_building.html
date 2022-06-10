@@ -1,0 +1,240 @@
+{% extends 'index.html' %}
+{% block content %}
+{% load static %}
+
+
+<!-- <div class="flexbox-container" id="AP"><div class="flexbox-item ">
+    <h3 style="color: gold;" >Advanced Project</h3><p class="small"><a href="#TOC">Table of Contents</a></p>
+</div></div> -->
+<div class="flexbox-container">
+    <div class="flexbox-item1 flexbox-item-2">
+      <div class="padding">
+        <div class="list-padding">
+          <h3>Power-Building</h3>
+          <a target="_blank" href="https://power-building.herokuapp.com"><img class="image2" src="{% static 'images/power-building.png' %}"></a>
+          <h5><a target="_blank" href="https://github.com/chetrambassit121/power-building">GitHub</a></h5>
+          <p>
+              Informational Fitness User Based website with a Social Feed. Post your latest workouts! Connect with other Users!<br>
+              Interact with the website! <br> Username: GuestUser1 <br> Password: power9000
+          </p>
+        </div>
+      </div>
+    </div>
+</div><br><br>
+<div class="flexbox-container fade-in-image">
+    <div class="flexbox-item1">
+        <div class="padding">
+            <h3>Source</h3><hr>
+            <div class="list-padding1">
+                <h6>Link:<br><a target="_blank" href="https://power-building.herokuapp.com/">power-building.herokuapp.com</a></h6><br>
+                <h6>GitHub: <br> <a target="_blank" href="https://github.com/chetrambassit121/power-building">chetrambassit121/power-building</a></h6><br>
+                <p>About:<br> Fitness project with information and social feed</p><br>
+            </div>
+            <h3>Frontend</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>HTML:<br> - elements <br> - classes <br> - id's <br> - displaying data</li>
+                    <li>Bootstrap:<br> - container <br> - navbars <br> - footers <br> - flexbox-container <br> - forms <br> - buttons <br> - icons</li>
+                    <li>CSS:<br> - custom navbars <br> - custom footer <br> - custom flexbox-container</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+            
+    <div class="flexbox-item1">
+        <div class="padding">
+            <h3>Backend User Logic</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>Register:<br> - custom registration form<br> - email activation link<br> - user profile automatically created</li>
+                    <li>Login:<br> - forgot username/password using email link</li>
+                    <li>Logout</li> 
+                    <li>View User Profile:<br> - view users posts <br> - followers list</li>
+                    <li>User Search:<br> - form</li>
+                    <li>View OTHER Users profile:<br>- view OTHER users posts <br> - view OTHER users followers</li>
+                    <li>Follow other Users</li>
+                    <li>View Public Social Feed:<br> - Pagination <br> - Infinite Scroll (not implemented)</li>
+                    <li>Add Post:<br> - edit <br> - delete <br> - like (ajax) <br> - dislike (ajax)</li>
+                    <li>Add Comment:<br> - delete <br> - like (ajax) <br> - dislike (ajax)</li>
+                    <li>Add Reply:<br> - delete</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexbox-item1 ">
+        <div class="padding">
+            <h3>Backend User Logic (continued)</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>Explore Hashtags:<br> - form <br> - search for post with hashtag <br> - search for comments with hashtag</li>
+                    <li>Inbox:<br> - search for user <br> - create thread with user</li>
+                    <li>Notifications:<br> - like <br> - follow <br> - comment <br> - message <br> - delete notification</li>
+                    <li>Survey Yes/No questions</li>
+                </ul>
+            </div>
+            <h3>JavaScript</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>Toggling an element:<br> - forms <br> - div read more/less</li>
+                    <li>Ajax post requests:<br> - like button<br> - dislike button<br> - posts<br> - comments<br> - thread message</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexbox-item1 ">
+        <div class="padding">
+            <h3>Django Rest Framework</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>Serializers:<br>
+                        - user detail <br>- user create<br>- user login <br>
+                        - post create<br>- post detail<br>- post detail comments<br>- post list<br>
+                        - comment create<br>- comment child<br>- comment detail<br>
+                    </li>
+                    <li>API Views:<br>
+                        - user create<br>- user login<br>
+                        - post create<br>- post delete<br>- post detail<br>- post detail comments-<br>- post list<br>- post update<br>
+                        - comment detail<br>- comment list
+                    </li>
+                    <li>Endpoints:<br>- user<br>- posts<br>- comments</li>
+                    <li>Post Permissions<br></li>
+                    <li>Post Pagination</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div><br>
+
+<div class="flexbox-container">
+    <div class="flexbox-item1 flexbox-item-2">
+      <div class="padding">
+        <div class="list-padding">
+          <h3>View Photos of Website</h3>
+          <p>Window size adjusted for better viewing. Not to scale.</p>
+        </div>
+      </div>
+    </div>
+</div><br><br>
+
+<div class="flexbox-container">
+    <div class="flexbox-item3">
+        <h3>Home</h3>
+        <img class="image3" src="{% static 'images/power-building/home.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Home for Logged in User</h3>
+        <img class="image3" src="{% static 'images/power-building/home-loggedin.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Register</h3>
+        <img class="image3" src="{% static 'images/power-building/register.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Login</h3>
+        <img class="image3" src="{% static 'images/power-building/login.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Social Feed</h3>
+        <img class="image3" src="{% static 'images/power-building/posts.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Social Feed Posts</h3>
+        <img class="image3" src="{% static 'images/power-building/posts-list.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Post Detail with Comments</h3>
+        <img class="image3" src="{% static 'images/power-building/postdetailwithcomments.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Post Detail with Comments and Replies</h3>
+        <img class="image3" src="{% static 'images/power-building/postdetailwithcommentsreplies.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Replies List</h3>
+        <img class="image3" src="{% static 'images/power-building/replylist.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Edit User Settings</h3>
+        <img class="image3" src="{% static 'images/power-building/edit-settings.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Delete Account</h3>
+        <img class="image3" src="{% static 'images/power-building/delete.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Edit Profile</h3>
+        <img class="image3" src="{% static 'images/power-building/edit-profile.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>User Profile</h3>
+        <img class="image3" src="{% static 'images/power-building/userprofile.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>User Profile Posts</h3>
+        <img class="image3" src="{% static 'images/power-building/userprofileposts.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>User Profile Shared Posts</h3>
+        <img class="image3" src="{% static 'images/power-building/userprofilesharedposts.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Followers List</h3>
+        <img class="image3" src="{% static 'images/power-building/followerslist.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Notifications</h3>
+        <img class="image3" src="{% static 'images/power-building/notifications.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Explore Hashtags</h3>
+        <img class="image3" src="{% static 'images/power-building/hashtag.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Inbox</h3>
+        <img class="image3" src="{% static 'images/power-building/inbox.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Inbox Search</h3>
+        <img class="image3" src="{% static 'images/power-building/inboxsearch.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Message Thread</h3>
+        <img class="image3" src="{% static 'images/power-building/messagethread.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>User Search</h3>
+        <img class="image3" src="{% static 'images/power-building/usersearch.png' %}">
+    </div>
+    <div class="flexbox-item3">
+        <h3>Survey Page</h3>
+        <img class="image3" src="{% static 'images/power-building/surveypage.png' %}">
+    </div>
+</div>
+
+
+<!-- <div class="flexbox-container1">
+    <div class="flexbox-item1">
+        <img class="powerbuilding-images" src="{% static 'images/power-building/home.png' %}">
+    </div>
+    <div class="flexbox-item1">
+        <img class="powerbuilding-images" src="{% static 'images/power-building/register.png' %}">
+    </div>
+    <div class="flexbox-item1">
+        <img class="powerbuilding-images" src="{% static 'images/power-building/login.png' %}">
+    </div>
+</div> -->
+<!-- <div class="flexbox-container2">
+    <div class="flexbox-item4">
+        <img class="powerbuilding-images" src="{% static 'images/power-building/home-page.png' %}">
+    </div>
+</div>
+<div class="flexbox-container2">
+    <div class="flexbox-item4">
+        <img class="powerbuilding-images" src="{% static 'images/power-building/home-page.png' %}">
+    </div>
+</div> -->
+
+
+{% endblock %}

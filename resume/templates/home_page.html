@@ -11,43 +11,7 @@
       <a href="#">Contact</a>
     </nav>
 </header> -->
-<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-  <div class="container-fluid" id="topofpage">
-    <h4 id="fh5co-logo"><b style="color: white;">Chetram Bassit</b></h4>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto navbar-right top-nav-bar"> 
-        <!-- <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://github.com/chetrambassit121">GitHub</a>
-        </li>   
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/chetram-bassit-4335a4202/">LinkedIn</a>
-        </li>     
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://docdro.id/iuekxZW">PDF Resume</a>
-        </li>   -->
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>  
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>   
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>     
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li> 
-        <!-- <li class="nav-item nav-item-quote">
-          <small class="nav-link-quote">"Where there's a code, there's a way!"</small>
-        </li> -->
-      </ul>
-    </div>
-  </div>
-</nav>
-<br>
+
 
 <main class="fade-in-image" >
   <div class="fixed-header">
@@ -140,7 +104,8 @@
           <h5>Power-Building</h5>
           <a target="_blank" href="https://power-building.herokuapp.com"><img class="image2" src="{% static 'images/power-building.png' %}"></a>
           <h5><a target="_blank" href="https://github.com/chetrambassit121/power-building">GitHub</a></h5>
-          <p>Informational Fitness User Based website with a Social Feed. Post your latest workouts! Connect with other Users!</p> 
+          <p>Informational Fitness User Based website with a Social Feed. Post your latest workouts! Connect with other Users!</p><hr>
+          <h5><a target="_blank" href="{% url 'power_building' %}">Information & Photos</a></h5>
         </div>
       </div>
     </div>
@@ -165,6 +130,56 @@
       </div>
     </div>
   </div><hr>
+
+  <div class="flexbox-container" id="DE"><div class="flexbox-item"><h3>Django Experience</h3></div></div>
+  <div class="flexbox-container fade-in-image">
+      <div class="flexbox-item1">
+          <div class="padding">
+              <div class="list-padding">
+                  <h5>Django Web Framework</h5><hr>
+                  <p class="small">(some but not limited to)</p>
+                  <ul>
+                      <li>Basics:<br> - installation<br> - create directory -> project <br> -> apps<br> - MVT structure<br> - manage.py commands<br> - importing packages</li>
+                      <li>Models:<br> - ORM<br> - models<br> - model fields<br> - methods within models<br> - migrations<br></li>
+                      <li>Views:<br> - class based views<br> - function based views<br> - create, list, detail, update, delete views</li>
+                      <li>Templates:<br> - template inheritance<br> - for loop<br> - if statement<br> - variables<br> - template tags </li>
+                      <li>Urls:<br> - passing in views<br> - related name<br></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="flexbox-item1">
+          <div class="padding">
+              <div class="list-padding">
+                  <h5>Django Web Framework <br> (continued)</h5><hr>
+                  <p class="small">(some but not limited to)</p>
+                  <ul>
+                      <li>Forms:<br> - form fields<br> - render html forms<br> - custom widgets<br> - model forms </li>
+                      <li>Signals:<br> - senders -> receivers</li>
+                      <li>Settings file:<br> - static <br> - media <br> - database<br> - email configurations<br> - development/production settings</li>
+                      <li>Admin interface</li>
+                      <li>User Permissions</li>
+                      <li>Testing Units:<br>- selenium<br> - models test<br> - views test<br> - HTML test<br> - development testing<br> - production testing</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="flexbox-item1">
+          <div class="padding">
+              <div class="list-padding">
+                  <h5>Django Rest Framework</h5><hr>
+                  <p class="small">(some but not limited to)</p>
+                  <ul>
+                      <li>Serialization:<br> - serializer class<br> - serializer methods<br> - creating views using serializer<br> - fields</li>
+                      <li>Requests / Responses Objects</li>
+                      <li>Class Views:<br> - create API views using class-based-views<br> - generic class-based-views</li>
+                      <li>Authentication / Permissions</li>
+                      <li>Creating Endpoints</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div><br><hr>
 
   <div class="flexbox-container" style="background-color: black;" id="about">
     <!-- <div class="flexbox-item1 flexbox-item-2"> -->

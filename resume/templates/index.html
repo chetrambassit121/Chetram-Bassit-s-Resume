@@ -15,8 +15,51 @@
   <body>
   <!-- <body width="100%" style="background-image: url(/static/images/space.avif);" > -->
     
-  
+    
+    
     <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid" id="topofpage">
+          <h4 id="fh5co-logo"><b><a style="color: white;" href="{% url 'home' %}">Chetram Bassit</a></b></h4>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto navbar-right top-nav-bar"> 
+              <!-- <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://github.com/chetrambassit121">GitHub</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/chetram-bassit-4335a4202/">LinkedIn</a>
+              </li>     
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://docdro.id/iuekxZW">PDF Resume</a>
+              </li>   -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>     
+              <li class="nav-item">
+                <a class="nav-link" href="#DE">Django</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li> 
+              <!-- <li class="nav-item nav-item-quote">
+                <small class="nav-link-quote">"Where there's a code, there's a way!"</small>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+
+
       {% block content %}
 
       {% endblock %}	

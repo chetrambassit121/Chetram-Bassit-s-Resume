@@ -14,3 +14,7 @@ class Home(View):
 class Home_Page(View):
     def get(self, request, *args, **kwargs):
         return render(request, 'home_page.html')
+
+class Power_Building(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, 'power_building.html')
