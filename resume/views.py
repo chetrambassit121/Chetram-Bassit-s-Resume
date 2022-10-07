@@ -8,6 +8,8 @@ from django.views import View
 
 class Home(View):
     def get(self, request, *args, **kwargs):
+        i = [i+2 for i in range(5)]
+        print(i)
         return render(request, 'home.html')
 
 
