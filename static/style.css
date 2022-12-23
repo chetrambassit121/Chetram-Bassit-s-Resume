@@ -254,6 +254,11 @@ a {
 
 }
 
+.about:hover {
+  background-color: gold;
+  color: #000;
+}
+
 .powerbuilding-images{
   height: 400px;
   width: 600px;
