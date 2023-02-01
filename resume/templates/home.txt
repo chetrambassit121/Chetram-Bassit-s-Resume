@@ -1,0 +1,651 @@
+<div style="display: none;" class="flexbox-container">
+    <img class="image" src="{% static 'images/resume-background.jpg' %}">
+</div>
+
+<div style="background-color: #004953;" class="row text-center top-header fancy-border fade-in-image">
+	<h1>Chetram Bassit</h1>
+    <h6>Email: chetrambassit121@gmail.com &nbsp;&nbsp;&nbsp; Cellphone: +1(646)-853-3016 <br></h6>
+    <h6>
+        <a target="_blank" href="https://github.com/logos"><img class="logo3"  src="{% static 'images/GitHub.png' %}"></a> Github: <a target="_blank" href="https://github.com/chetrambassit121">chetrambassit121</a> &nbsp;&nbsp;&nbsp; 
+        <a><img class="logo3"  src="{% static 'images/linkedin.png' %}"></a> LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/chetram-bassit-4335a4202/">Chetram Bassit</a><br><br>
+        <a target="_blank" href="https://www.docdroid.net/WhRnIuI/chetram-bassits-resume-pdf"> PDF Resume</a>
+    </h6>
+    <iframe width="100%" height="600" src="https://www.docdroid.net/WhRnIuI/chetram-bassits-resume-pdf" frameborder="0" allowtransparency allowfullscreen> PDF Resume</iframe>
+</div><br>
+
+<div class="flexbox-container" id="TOC">
+    <div class="flexbox-item2 fancy-border">
+        <div class="padding">
+            <div class="list-padding">
+                <h5 >Table of Contents <br></h5><p class="small">(click on jumping links)</p><hr>
+                <div class="jumpinglink">
+                    <h6><a href="#PE">Programming Experience</a></h6>
+                    <h6><a href="#DE">Django Experience</a></h6>
+                    <h6><a href="#AP">Advanced Project</a></h6>
+                    <h6><a href="#APs">All Projects</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="flexbox-container fade-in-image" id="PE"><div class="flexbox-item fancy-border"><h3 style="color: gold;" >Programming Experience</h3><p class="small"><a href="#TOC">Table of Contents</a></p></div></div>
+<div class="flexbox-container fade-in-image">
+    <div class="flexbox-item1 flexbox-item-2 fancy-border">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Backend</h5><hr>
+                <ul>
+                    <li><a target="_blank" href="https://www.python.org/community/logos/"><img class="logo" src="{% static 'images/python-logo.png' %}"></a> Python</li>
+                    <li><a target="_blank" href="https://static.djangoproject.com/img/logos/django-logo-negative.png"><img class="logo" src="{% static 'images/django-logo.png' %}"></a><br>Django Web Framework </li>
+                    <li><a target="_blank" href="https://www.django-rest-framework.org/"><img style="background-color: white;" class="logo" src="{% static 'images/drf.png' %}"></a><br>Django Rest Framework </li>
+                    <li><a target="_blank" href="https://iconscout.com/contributors/icon-mafia"><img style="background-color: white;" class="logo" src="{% static 'images/flask.png' %}"></a><br>Flask Web Framework </li>
+                </ul><br>
+            </div>
+        </div>
+    </div>
+    <div class="flexbox-item1 flexbox-item-2 fancy-border">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Frontend</h5><hr>
+                <ul>
+                    <li><a target="_blank" href="https://www.freepnglogos.com/pics/html5-logo"><img class="logo1" src="{% static 'images/html5-logo.png' %}"></a>    HTML</li>
+                    <li><a target="_blank" href="https://3wa.fr/technologies/langages/css/attachment/logo-css/"><img class="logo2" src="{% static 'images/logo-css.png' %}"></a>    CSS</li>
+                    <li><a target="_blank" href="https://www.freelogovectors.net/bootstrap-logo/"><img class="logo2" src="{% static 'images/bootstrap.png' %}"></a>    Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+    <div class="flexbox-item1 flexbox-item-2 fancy-border">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Other Lanuages</h5><hr>
+                <ul>
+                    <li><a target="_blank" href="https://seeklogo.com/vector-logo/330541/javascript"><img class="logo1" src="{% static 'images/javascript-logo.png' %}"></a>   Javascript</li>
+                </ul>
+                <h5>Text Editors</h5><hr>
+                <ul>
+                    <li><a target="_blank" href="https://iconscout.com/icon/sublime-text-3521747"><img class="logo2" src="{% static 'images/sublime-text.png' %}"></a>   Sublime Text</li>
+                    <li><a target="_blank" href="https://iconscout.com/icon/visual-studio-code-1868941"><img class="logo2" src="{% static 'images/visual-studio-code.png' %}"></a> Visual Studio Code</li>
+                    <li><a target="_blank" href="https://iconscout.com/icon/pycharm-2"><img class="logo2" src="{% static 'images/pycharm.png' %}"></a>   Pycharm</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="flexbox-container" id="DE"><div class="flexbox-item fancy-border"><h3 style="color: gold;" >Django Experience</h3><p class="small"><a href="#TOC">Table of Contents</a></p></div></div>
+<div class="flexbox-container fade-in-image">
+    <div class="flexbox-item1 fancy-border">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Django Web Framework</h5><hr>
+                <p class="small">(some but not limited to)</p>
+                <ul>
+                    <li>Basics:<br> - installation<br> - create directory -> project <br> -> apps<br> - MVT structure<br> - manage.py commands<br> - importing packages</li>
+                    <li>Models:<br> - ORM<br> - models<br> - model fields<br> - methods within models<br> - migrations<br></li>
+                    <li>Views:<br> - class based views<br> - function based views<br> - create, list, detail, update, delete views</li>
+                    <li>Templates:<br> - template inheritance<br> - for loop<br> - if statement<br> - variables<br> - template tags </li>
+                    <li>Urls:<br> - passing in views<br> - related name<br></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="flexbox-item1 fancy-border">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Django Web Framework <br> (continued)</h5><hr>
+                <p class="small">(some but not limited to)</p>
+                <ul>
+                    <li>Forms:<br> - form fields<br> - render html forms<br> - custom widgets<br> - model forms </li>
+                    <li>Signals:<br> - senders -> receivers</li>
+                    <li>Settings file:<br> - static <br> - media <br> - database<br> - email configurations<br> - development/production settings</li>
+                    <li>Admin interface</li>
+                    <li>User Permissions</li>
+                    <li>Testing Units:<br>- selenium<br> - models test<br> - views test<br> - HTML test<br> - development testing<br> - production testing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="flexbox-item1 fancy-border">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Django Rest Framework</h5><hr>
+                <p class="small">(some but not limited to)</p>
+                <ul>
+                    <li>Serialization:<br> - serializer class<br> - serializer methods<br> - creating views using serializer<br> - fields</li>
+                    <li>Requests / Responses Objects</li>
+                    <li>Class Views:<br> - create API views using class-based-views<br> - generic class-based-views</li>
+                    <li>Authentication / Permissions</li>
+                    <li>Creating Endpoints</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="flexbox-container" id="AP"><div class="flexbox-item fancy-border">
+    <h3 style="color: gold;" >Advanced Project</h3><p class="small"><a href="#TOC">Table of Contents</a></p>
+</div></div>
+<div class="flexbox-container fade-in-image">
+    <div class="flexbox-item1 fancy-border">
+        <div class="padding">
+            <h3>Source</h3><hr>
+            <div class="list-padding1">
+                <h6>Link:<br><a target="_blank" href="https://power-building.herokuapp.com/">power-building.herokuapp.com</a></h6><br>
+                <h6>GitHub: <br> <a target="_blank" href="https://github.com/chetrambassit121/power-building">chetrambassit121/power-building</a></h6><br>
+                <p>About:<br> Fitness project with information and social feed</p><br>
+            </div>
+            <h3>Frontend</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>HTML:<br> - elements <br> - classes <br> - id's <br> - displaying data</li>
+                    <li>Bootstrap:<br> - container <br> - navbars <br> - footers <br> - flexbox-container <br> - forms <br> - buttons <br> - icons</li>
+                    <li>CSS:<br> - custom navbars <br> - custom footer <br> - custom flexbox-container</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+            
+    <div class="flexbox-item1 fancy-border">
+        <div class="padding">
+            <h3>Backend User Logic</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>Register:<br> - custom registration form<br> - email activation link<br> - user profile automatically created</li>
+                    <li>Login:<br> - forgot username/password using email link</li>
+                    <li>Logout</li> 
+                    <li>View User Profile:<br> - view users posts <br> - followers list</li>
+                    <li>User Search:<br> - form</li>
+                    <li>View OTHER Users profile:<br>- view OTHER users posts <br> - view OTHER users followers</li>
+                    <li>Follow other Users</li>
+                    <li>View Public Social Feed:<br> - Pagination <br> - Infinite Scroll (not implemented)</li>
+                    <li>Add Post:<br> - edit <br> - delete <br> - like (ajax) <br> - dislike (ajax)</li>
+                    <li>Add Comment:<br> - delete <br> - like (ajax) <br> - dislike (ajax)</li>
+                    <li>Add Reply:<br> - delete</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexbox-item1 fancy-border">
+        <div class="padding">
+            <h3>Backend User Logic (continued)</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>Explore Hashtags:<br> - form <br> - search for post with hashtag <br> - search for comments with hashtag</li>
+                    <li>Inbox:<br> - search for user <br> - create thread with user</li>
+                    <li>Notifications:<br> - like <br> - follow <br> - comment <br> - message <br> - delete notification</li>
+                    <li>Survey Yes/No questions</li>
+                </ul>
+            </div>
+            <h3>JavaScript</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>Toggling an element:<br> - forms <br> - div read more/less</li>
+                    <li>Ajax post requests:<br> - like button<br> - dislike button<br> - posts<br> - comments<br> - thread message</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexbox-item1 fancy-border">
+        <div class="padding">
+            <h3>Django Rest Framework</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>Serializers:<br>
+                        - user detail <br>- user create<br>- user login <br>
+                        - post create<br>- post detail<br>- post detail comments<br>- post list<br>
+                        - comment create<br>- comment child<br>- comment detail<br>
+                    </li>
+                    <li>API Views:<br>
+                        - user create<br>- user login<br>
+                        - post create<br>- post delete<br>- post detail<br>- post detail comments-<br>- post list<br>- post update<br>
+                        - comment detail<br>- comment list
+                    </li>
+                    <li>Endpoints:<br>- user<br>- posts<br>- comments</li>
+                    <li>Post Permissions<br></li>
+                    <li>Post Pagination</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="flexbox-container" id="APs"><div class="flexbox-item fancy-border">
+    <h3 style="color: gold;" >All Projects</h3><p class="small"><a href="#TOC">Table of Contents</a></p>
+    <p>All projects have been deployed to Heroku for viewing and interacting. All coding has been uploaded to my <a target="_blank" href="https://www.github.com/chetrambassit121">GitHub</a>. Please click on the links!</p>
+</div></div>
+<div class="flexbox-container fade-in-image">
+    <div class="flexbox-item flexbox-item-4 fancy-border">
+        <div class="padding">
+            <h3>Advanced</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>
+                        I LEARNED: <br> <a target="_blank" href="https://chets-socialnetwork202-herokuapp.com/">chets-socialnetwork2021</a> Django Framework WITH <a target="_blank" href="https://www.youtube.com/c/LegionScript/playlists">Legion Script</a> <br> 
+                        GitHub: <br> <a target="_blank" href="https://github.com/chetrambassit121/ChetsSocialNetwork2021 ">chetrambassit121/<br>ChetsSocialNetwork2021 </a>
+                    </li>
+                    
+                    <li>
+                        I ADVANCED: <br>
+                        <a target="_blank" href="https://chets-socialnetwork202-herokuapp.com/">chets-socialnetwork2021</a> to <span class="right-arrow">&#8594;</span>
+                        <br><a target="_blank" href="https://nyforchoice-social.herokuapp.com/">nyforchoice-social</a> Django Framework <br> 
+                        GitHub: <br> <a target="_blank" href="https://github.com/chetrambassit121/nyforchoice_social">chetrambassit121/nyforchoice_social</a> 
+                    </li>
+
+                    <li>
+                        I FURTHER ADVANCED AND RECREATED: <br>
+                        <a target="_blank" href="https://nyforchoice-social.herokuapp.com/">nyforchoice-social</a> to <span class="right-arrow">&#8594;</span>
+                        <br><a target="_blank" href="https://power-building.herokuapp.com/">power-building</a> Django Framework <br>
+                        GitHub: <br> <a target="_blank" href="https://github.com/chetrambassit121/power-building">chetrambassit121/power-building</a> 
+                    </li>
+
+                    <li>
+                        I OWN: <br>
+                        <a target="_blank" href="https://nyforchoice.com/">www.nyforchoice.com</a> A content and social platform website for residents of the State of New York. My own personal project which is still in development. It will contain all the user logic from <a target="_blank" href="https://nyforchoice-social.herokuapp.com/">nyforchoice-social</a> PLUS MORE!  
+                    </li>
+                </ul> 
+            </div>     
+        </div>
+    </div>
+    <div class="flexbox-item flexbox-item-4 fancy-border">
+        <div class="padding">
+            <h3>Intermediate</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>
+                        I LEARNED: <br> <a target="_blank" href="https://chets-web-blog2020.herokuapp.com/">chets-web-blog2020</a> Django Framework WITH <a target="_blank" href="https://www.youtube.com/playlist?list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi">John Elder</a> <br> 
+                        GitHub: <br> <a target="_blank" href="https://github.com/chetrambassit121/chets-web-blog2020">chetrambassit121/chets-web-blog2020</a>
+                    </li>
+                    <li>
+                        I READ: <br> <a target="_blank" href="https://www.obeythetestinggoat.com/book/praise.harry.html">Obey the Testing Goat</a><br>
+                        Test Driven Development Project: <br> <a target="_blank" href="https://chets-python-django-tdd.herokuapp.com/">chets-python-django-tdd</a><br>
+                        Github: <br> <a target="_blank" href="https://github.com/chetrambassit121/python-django-tdd">chetrambassit121/python-django-tdd</a>
+                    </li>
+                </ul> 
+            </div>     
+        </div>
+    </div>
+    <div class="flexbox-item flexbox-item-4 fancy-border">
+        <div class="padding">
+            <h3>Beginner</h3><hr>
+            <div class="list-padding1">
+                <ul>
+                    <li>
+                        I LEARNED: <br> <a target="_blank" href="https://hello-world-chet.herokuapp.com/">Hello World!</a> Flask Framework WITH <a target="_blank" href="https://www.udemy.com/course/web-developer-bootcamp-flask-python/#instructor-1">Jose Salvatierra</a> <br> GitHub: <br> <a target="_blank" href="https://github.com/chetrambassit121/hello-world-chet">chetrambassit121/hello-world-chet</a>
+                    </li>
+                    <li>
+                        I ADVANCED: <br> <a target="_blank" href="https://chets-2020-web-blog.herokuapp.com/">Hello World!</a> to <span class="right-arrow">&#8594;</span> <br> <a target="_blank" href="https://chets-2020-web-blog.herokuapp.com/">chets-2020-web-blog</a> Flask Framework <br> GitHub: <br> <a target="_blank" href="https://github.com/chetrambassit121/2020_web_blog">chetrambassit121/2020_web_blog</a> 
+                    </li>
+                </ul> 
+            </div>     
+        </div>
+    </div>
+</div>
+
+<div class="flexbox-container">
+    <div class="flexbox-item flexbox-item-0 fancy-border">
+        <h5 style="background-color: #004953; color: white; margin-bottom: 25px;">Background image source:<a target="_blank" href="https://cf.ltkcdn.net/web-design/images/orig/204538-2261x1326-HTML.jpg"> Link</a></h5>
+        <p class="text-center">Click on logos for attribution</p>
+        <p>Github coding for resume: <br><a target="_blank" href="https://www.github.com/chetrambassit121/Chetram-Bassit-s-Resume">Chetram-Bassit-s-Resume</a></p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% extends 'index.html' %}
+{% block content %}
+{% load static %}
+
+
+<!-- <header class="header">
+    <a href="#" class="logo">Chetram</a>
+    <nav class="nav-items">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+</header> -->
+<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+  <div class="container-fluid" id="topofpage">
+    <h4 id="fh5co-logo"><b><a style="color: white;" href="{% url 'home' %}">Chetram Bassit</a></b></h4>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto navbar-right top-nav-bar"> 
+        <!-- <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://github.com/chetrambassit121">GitHub</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/chetram-bassit-4335a4202/">LinkedIn</a>
+        </li>     
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://docdro.id/iuekxZW">PDF Resume</a>
+        </li>   -->
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>     
+        {% comment %} <li class="nav-item">
+          <a class="nav-link" href="#DE">Django</a>
+        </li>    {% endcomment %}
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li> 
+        <!-- <li class="nav-item nav-item-quote">
+          <small class="nav-link-quote">"Where there's a code, there's a way!"</small>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+
+
+<main class="fade-in-image" >
+  <div class="fixed-header">
+    <div class="intro rounded-circle"  style="opacity: 0.9;">
+      <h2 style="color: rgb(166, 238, 50);">Backend Developer</h2>
+      <!-- <p>Fully engaged in all aspects of developing clean coded, efficient, user based websites.</p> -->
+      <p class="header-quote">Bringing thoughts and ideas <br> Into reality through coding</p>
+      <div class="header-quote">
+        <!-- <h5>
+          <a><img style="background-color: white;" class="header-logos" src="{% static 'images/GitHub.png' %}"></a><a class="nav-link" target="_blank" href="https://github.com/chetrambassit121">GitHub</a>
+          <a><img class="header-logos" src="{% static 'images/linkedin.png' %}"></a><a class="nav-link" target="_blank" href="https://www.linkedin.com/in/chetram-bassit-4335a4202/">LinkedIn</a>
+          <a class="nav-link" target="_blank" href="https://docdro.id/iuekxZW">PDF Resume</a>
+        </h5> -->
+        <h6>
+          <a target="_blank" href="https://github.com/logos"><img style="background-color: white;" class="logo3"  src="{% static 'images/GitHub.png' %}"></a> <a target="_blank" href="https://github.com/chetrambassit121">chetrambassit121</a> <br><br>
+          <a target="_blank" href="https://www.shutterstock.com/image-photo/valencia-spain-may-15-2017-linkedin-1376872499"><img class="logo3"  src="{% static 'images/linkedin.png' %}"></a> <a target="_blank" href="https://www.linkedin.com/in/chetram-bassit-4335a4202/">Chetram Bassit</a><br><br>
+          <a target="_blank" href="https://www.shutterstock.com/image-vector/resume-icon-477290071"><img class="logo3"  src="{% static 'images/resume-icon.webp' %}"></a><a target="_blank" href="https://docdro.id/4IzUoKN"> PDF Resume</a>
+        </h6>
+      </div>
+      <small class="nav-link-quote">"Where there's a code, there's a way!"</small>
+    </div>
+  </div>
+
+  <div class="flexbox-container contact">
+    <div class="flexbox-item1">
+      <div class="row text-center top-header">
+        <h3 id="contact" >Contact</h3>
+        <h6>
+          <a target="_blank" href="https://www.shutterstock.com/image-vector/email-icon-envelope-mail-services-contacts-1379676980"><img class="logo3" src="{% static 'images/email.webp' %}"></a> Email: chetrambassit121@gmail.com 
+        </h6>
+      </div>
+    </div>
+  </div>
+  <hr>
+ 
+  <div class="flexbox-container" id="PE"><div class=""><h3 id="skills" style="color: rgb(166, 238, 50);">Technical Skills</h3></div></div>
+  <div class="flexbox-container">
+    <div class="flexbox-item1 flexbox-item-2">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Backend</h5><hr>
+                <ul>
+                  <li><a target="_blank" href="https://www.python.org/community/logos/"><img class="logo" src="{% static 'images/python-logo.png' %}"></a> Python</li>
+                  <li><a target="_blank" href="https://static.djangoproject.com/img/logos/django-logo-negative.png"><img class="logo" src="{% static 'images/django-logo.png' %}"></a><br>Django Web Framework </li>
+                  <li><a target="_blank" href="https://www.django-rest-framework.org/"><img style="background-color: white;" class="logo" src="{% static 'images/drf.png' %}"></a><br>Django Rest Framework </li>
+                  <li><a target="_blank" href="https://iconscout.com/contributors/icon-mafia"><img style="background-color: white;" class="logo" src="{% static 'images/flask.png' %}"></a><br>Flask Web Framework </li>
+                </ul><br>
+            </div>
+        </div>
+    </div>
+    <div class="flexbox-item1 flexbox-item-2">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Frontend</h5><hr>
+                <ul>
+                    <li><a target="_blank" href="https://www.freepnglogos.com/pics/html5-logo"><img class="logo1 html" src="{% static 'images/html5-logo.png' %}"></a>    HTML</li>
+                    <li><a target="_blank" href="https://3wa.fr/technologies/langages/css/attachment/logo-css/"><img class="logo2" src="{% static 'images/logo-css.png' %}"></a>    CSS</li>
+                    <li><a target="_blank" href="https://www.freelogovectors.net/bootstrap-logo/"><img class="logo2" src="{% static 'images/bootstrap.png' %}"></a>    Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+    <div class="flexbox-item1 flexbox-item-2">
+        <div class="padding">
+            <div class="list-padding">
+                <h5>Other Lanuages</h5><hr>
+                <ul>
+                    <li><a target="_blank" href="https://seeklogo.com/vector-logo/330541/javascript"><img class="logo1 html" src="{% static 'images/javascript-logo.png' %}"></a>   Javascript</li>
+                </ul>
+                <h5>Text Editors</h5><hr>
+                <ul>
+                    <li><a target="_blank" href="https://iconscout.com/icon/sublime-text-3521747"><img class="logo2" src="{% static 'images/sublime-text.png' %}"></a>   Sublime Text</li>
+                    <li><a target="_blank" href="https://iconscout.com/icon/visual-studio-code-1868941"><img class="logo2" src="{% static 'images/visual-studio-code.png' %}"></a> Visual Studio Code</li>
+                    <li><a target="_blank" href="https://iconscout.com/icon/pycharm-2"><img class="logo2" src="{% static 'images/pycharm.png' %}"></a>   Pycharm</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div><hr>
+
+  <div class="flexbox-container" id="PE"><div><h3 id="projects" style="color: rgb(166, 238, 50);">Projects</h3></div></div>
+  <div class="flexbox-container">
+    <div class="flexbox-item1 flexbox-item-2">
+      <div class="padding">
+        <div class="list-padding">
+          <h5>Power-Building</h5>
+          <a target="_blank" href="https://power-building.herokuapp.com"><img class="image2" src="{% static 'images/power-building.png' %}"></a>
+          <h5><a target="_blank" href="https://github.com/chetrambassit121/power-building">GitHub</a></h5>
+          <p>Informational Fitness User Based website with a Social Feed. Post your latest workouts! Connect with other Users!</p><hr>
+          <h5><a target="_blank" href="{% url 'power_building' %}">Information & Photos</a></h5>
+        </div>
+      </div>
+    </div>
+    <div class="flexbox-item1 flexbox-item-2">
+      <div class="padding">
+        <div class="list-padding">
+          <h5>NY for Choice Social</h5>
+          <a target="_blank" href="https://nyforchoice-social.herokuapp.com"><img class="image2" src="{% static 'images/nyforchoicesocial.png' %}"></a>
+          <h5><a target="_blank" href="https://github.com/chetrambassit121/nyforchoice_social">GitHub</a></h5>
+          <p>Platform for the Residents of the State of New York. Discuss and execute social changes on a local level.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flexbox-item1 flexbox-item-2">
+      <div class="padding">
+        <div class="list-padding">
+          <h5>chets-socialnetwork2021</a></h5>
+          <a target="_blank" href="https://chets-socialnetwork2021.herokuapp.com"><img class="image2" src="{% static 'images/chetssocialnetwork2021.png' %}"></a>
+          <h5><a target="_blank" href="https://github.com/chetrambassit121/ChetsSocialNetwork2021">GitHub</a></h5>
+          <p>Start up social platform. Add your own theme and begin your own social platform!</p>
+        </div>
+      </div>
+    </div>
+  </div><hr>
+
+  {% comment %} <div class="flexbox-container" id="DE"><div><h3 style="color: rgb(166, 238, 50);">Django Experience</h3></div></div>
+  <div class="flexbox-container fade-in-image">
+      <div class="flexbox-item1">
+          <div class="padding">
+              <div class="list-padding">
+                  <h5>Django Web Framework</h5><hr>
+                  <p class="small">(some but not limited to)</p>
+                  <ul>
+                      <li>Basics:<br> - installation<br> - create directory -> project <br> -> apps<br> - MVT structure<br> - manage.py commands<br> - importing packages</li>
+                      <li>Models:<br> - ORM<br> - models<br> - model fields<br> - methods within models<br> - migrations<br></li>
+                      <li>Views:<br> - class based views<br> - function based views<br> - create, list, detail, update, delete views</li>
+                      <li>Templates:<br> - template inheritance<br> - for loop<br> - if statement<br> - variables<br> - template tags </li>
+                      <li>Urls:<br> - passing in views<br> - related name<br></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="flexbox-item1">
+          <div class="padding">
+              <div class="list-padding">
+                  <h5>Django Web Framework <br> (continued)</h5><hr>
+                  <p class="small">(some but not limited to)</p>
+                  <ul>
+                      <li>Forms:<br> - form fields<br> - render html forms<br> - custom widgets<br> - model forms </li>
+                      <li>Signals:<br> - senders -> receivers</li>
+                      <li>Settings file:<br> - static <br> - media <br> - database<br> - email configurations<br> - development/production settings</li>
+                      <li>Admin interface</li>
+                      <li>User Permissions</li>
+                      <li>Testing Units:<br>- selenium<br> - models test<br> - views test<br> - HTML test<br> - development testing<br> - production testing</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="flexbox-item1">
+          <div class="padding">
+              <div class="list-padding">
+                  <h5>Django Rest Framework</h5><hr>
+                  <p class="small">(some but not limited to)</p>
+                  <ul>
+                      <li>Serialization:<br> - serializer class<br> - serializer methods<br> - creating views using serializer<br> - fields</li>
+                      <li>Requests / Responses Objects</li>
+                      <li>Class Views:<br> - create API views using class-based-views<br> - generic class-based-views</li>
+                      <li>Authentication / Permissions</li>
+                      <li>Creating Endpoints</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div><br><hr> {% endcomment %}
+
+  <div class="flexbox-container about" id="about">
+    <div class="padding">
+      <div class="list-padding">
+        <h2>About</h2>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;Being a Backend Web Developer along with frontend tools, I have the necessary skills to create and deploy projects based on the clients criteria. 
+          Fully engaged in all aspects of developing clean coded, efficient, user-based websites. 
+          Clear and consistent communication with other developers for maximum efficiency with development. 
+          Understanding of backend to frontend relationship engaging multiple languages.
+          <br><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Bringing thoughts and ideas into reality through coding is an extremely satisfying feeling. 
+          From a young age, I have always aspired to develop or create my own unique ideas or broadcast my thoughts and philosophies. 
+          But how can one realistically do this? Of course, a great answer for my question is Software Development also known as coding. 
+          One may use the amazing science of coding to revolutionize entire industries, impacting the lives of many. 
+          Software Development has and will continue to create new ideas and improve existing ones. It is my belief that Software Development has changed this world for the better!
+        </p>
+      </div>
+    </div>
+  </div>
+    
+</main>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="achievements">
+      <div class="work">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading">Projects</p>
+        <p class="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Skills</p>
+        <p class="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">Network</p>
+        <p class="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
+      </div>
+    </div> -->
