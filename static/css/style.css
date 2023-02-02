@@ -17,6 +17,14 @@ body {
   margin-top: 25px;
 }
 
+.white {
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 .center {
   /* border: 5px solid; */
   margin: auto;
